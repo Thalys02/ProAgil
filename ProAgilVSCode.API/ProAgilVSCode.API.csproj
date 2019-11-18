@@ -3,11 +3,11 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Resources\images\img1.jpg" />
-    <Content Include="Resources\images\img2.jpg" />
-    <Content Include="Resources\images\img3.jpg" />
-    <Content Include="Resources\images\img4.jpg" />
-    <Content Include="Resources\images\img5.jpg" />
+    <Content Include="Resources\Images\img1.jpg" />
+    <Content Include="Resources\Images\img2.jpg" />
+    <Content Include="Resources\Images\img3.jpg" />
+    <Content Include="Resources\Images\img4.jpg" />
+    <Content Include="Resources\Images\img5.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
