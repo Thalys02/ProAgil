@@ -19,6 +19,9 @@ import { ContatosComponent } from './contatos/contatos.component';
 import { TituloComponent } from './_shared/titulo/titulo.component';
 
 import { DateTimeFormatPipePipe } from './_helps/DateTimeFormatPipe.pipe';
+import { UserComponent } from './user/user.component';
+import { RegistrationComponent } from './user/registration/registration.component';
+import { LoginComponent } from './user/login/login.component';
 
 @NgModule({
    declarations: [
@@ -29,21 +32,23 @@ import { DateTimeFormatPipePipe } from './_helps/DateTimeFormatPipe.pipe';
       PalestranteComponent,
       ContatosComponent,
       TituloComponent,
-      DateTimeFormatPipePipe
+      DateTimeFormatPipePipe,
+      UserComponent,
+      RegistrationComponent,
+      LoginComponent
    ],
    imports: [
       BrowserModule,
       BrowserAnimationsModule,
-      //utiliza-se forRoot para ter opção de implementar em toda estrutura do Projeto
-      BsDropdownModule.forRoot(),
+      //utiliza-seforRootparateropçãodeimplementaremtodaestruturadoProjeto\r\nBsDropdownModule.forRoot(),
       BsDatepickerModule.forRoot(),
-      
       TooltipModule.forRoot(),
       ModalModule.forRoot(),
-      BrowserAnimationsModule, 
-      ToastrModule.forRoot({timeOut: 10000,
-         positionClass: 'toast-bottom-right',
-         preventDuplicates: true}),
+      BrowserAnimationsModule,
+      ToastrModule.forRoot({timeOut: 3000,
+         preventDuplicates:true,
+         progressBar:true
+      }),
       AppRoutingModule,
       HttpClientModule,
       FormsModule,
