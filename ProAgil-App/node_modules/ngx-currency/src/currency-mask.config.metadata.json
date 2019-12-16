@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":4,"metadata":{"CurrencyMaskConfig":{"__symbolic":"interface"},"CURRENCY_MASK_CONFIG":{"__symbolic":"new","expression":{"__symbolic":"reference","module":"@angular/core","name":"InjectionToken","line":14,"character":38},"arguments":["currency.mask.config"]}}}]
