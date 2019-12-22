@@ -115,7 +115,7 @@ export class EventoEditComponent implements OnInit {
   onFileChange(file: FileList){
     const reader =  new FileReader();
     reader.onload = (event: any) => this.imagemURL = event.target.result;
-    this.file = event.target.files;
+    //this.file = event.target.files;
     reader.readAsDataURL(file[0]);
   }
   salvarEvento(){
